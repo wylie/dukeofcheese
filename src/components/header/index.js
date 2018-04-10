@@ -9,10 +9,12 @@ class Header extends Component {
     return (
       <header className="Header-header">
         <img src={logo} className="Header-logo" alt="logo" />
-        <h1 className="Header-title">Subway Battle!</h1>
+        <h1 className="Header-title">Subway Battle</h1>
       </header>
     );
   }
 }
+
+Header.displayName = "Header";
 
 export default Header;
