@@ -3,3 +3,7 @@ install:
 language: node_js
 node_js:
   - "node"
+deploy:
+  provider: firebase
+  token:
+    secure: AIzaSyD8-5wfgevM7Jpr06yjSklHnWXqq8VbSl4
