@@ -1,4 +1,5 @@
+---
 deploy:
-- provider: firebase
-- token:
-  - secure: "AIzaSyD8-5wfgevM7Jpr06yjSklHnWXqq8VbSl4"
+  provider: firebase
+  token:
+    secure: AIzaSyD8-5wfgevM7Jpr06yjSklHnWXqq8VbSl4
