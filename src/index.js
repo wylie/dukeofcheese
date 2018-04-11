@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import App from './components/app';
+import Wrapper from './components/wrapper';
 
 import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Wrapper />, document.getElementById('root'));
 registerServiceWorker();

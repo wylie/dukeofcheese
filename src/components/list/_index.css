@@ -1,0 +1,17 @@
+.List {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+}
+.List li {
+  padding: 0;
+  color: #999;
+  line-height: 1.75;
+}
+.List a {
+  color: #999;
+  text-decoration: none;
+}
+.List a:hover {
+  color: #777;
+}
