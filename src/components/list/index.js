@@ -4,7 +4,6 @@ import cn from "classnames";
 import './_index.css';
 
 const List = ({ data }) => {
-  console.log(data); // eslint-disable-line
   const outputClassName = cn('List');
   return (
     <ul className={outputClassName}>
