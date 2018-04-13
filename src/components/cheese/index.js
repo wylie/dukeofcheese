@@ -15,7 +15,7 @@ const Cheese = ({ position }) => {
   );
 }
 
-Cheese.displayName = "Cheese";
+Cheese.displayName = "🧀";
 
 Cheese.propTypes = {
   position: PropTypes.string
