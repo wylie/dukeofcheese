@@ -3,7 +3,7 @@ import cn from "classnames";
 
 import './_index.css';
 
-const Wrapper = ({ data }) => {
+const List = ({ data }) => {
   console.log(data); // eslint-disable-line
   const outputClassName = cn('List');
   return (
@@ -28,6 +28,6 @@ const Wrapper = ({ data }) => {
   );
 }
 
-Wrapper.displayName = "Wrapper";
+List.displayName = "List";
 
-export default Wrapper;
+export default List;
