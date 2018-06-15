@@ -16,10 +16,6 @@ const data = [
     url: "http://particle17.com"
   },
   {
-    text: "analrv.com",
-    url: "http://analrv.com"
-  },
-  {
     text: "ifeelblank.com",
     url: "http://ifeelblank.com"
   },
