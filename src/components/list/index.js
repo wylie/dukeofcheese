@@ -1,17 +1,20 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import cn from "classnames";
 
 import './_index.css';
 
-const List = ({ data }) => {
-  const outputClassName = cn('List');
+const List = ({ data, type, email }) => {
+  const outputClassName = cn('List', {
+    [`List_${type}`]: type
+  });
   return (
     <ul className={outputClassName}>
       {!data
       ?
         <li>
-          <a href="mailto:wylie@dukeofcheese.com">
-            wylie@dukeofcheese.com
+          <a href={`mailto:${email}`}>
+            {email}
           </a>
         </li>
       :
@@ -28,5 +31,15 @@ const List = ({ data }) => {
 }
 
 List.displayName = "List";
+
+List.propTypes = {
+  type: PropTypes.oneOf(["email", "links"]),
+  email: PropTypes.string
+};
+
+List.defaultProps = {
+  email: ""
+};
+
 
 export default List;

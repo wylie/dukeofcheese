@@ -2,6 +2,9 @@
   "name": "shazam",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "@types/prop-types": "^15.5.6"
+  },
   "dependencies": {
     "classnames": "^2.2.5",
     "react": "^16.3.1",

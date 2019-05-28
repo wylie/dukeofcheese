@@ -1,15 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from "prop-types";
 
 import './_index.css';
 
-class Header extends Component {
-  render() {
-    return (
-      <h1 className="Header">Wylie Fisher</h1>
-    );
-  }
+const Header = ({ name }) => {
+  return (
+    <h1 className="Header">{name}</h1>
+  );
 }
 
 Header.displayName = "Header";
+
+Header.propTypes = {
+  name: PropTypes.string
+};
+
+Header.defaultProps = {
+  name: ""
+};
 
 export default Header;

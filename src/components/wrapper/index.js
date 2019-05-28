@@ -13,10 +13,9 @@ class Wrapper extends Component {
     return (
       <div className="Wrapper">
         <Cheese position="top" />
-        <Header />
-        <List />
-        <hr />
-        <List data={data} />
+        <Header name="Wylie Fisher" />
+        <List type="email" email="wylie@dukeofcheese.com" />
+        <List type="links" data={data} />
         <Cheese position="bottom" />
       </div>
     );
