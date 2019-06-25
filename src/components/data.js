@@ -1,7 +1,7 @@
 const data = [
   {
     text: "github.com/wylie",
-    url: "http://github.com/wylie"
+    url: "https://github.com/wylie"
   }
 ];
 
