@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import Header from '../header';
+// import Header from '../header';
+// import List from '../list';
 import Cheese from '../cheese';
-import List from '../list';
 
-import { data } from "../data.js";
+// import { data } from "../data.js";
 
 import './_index.css';
 

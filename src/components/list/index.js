@@ -20,7 +20,7 @@ const List = ({ data, type, email }) => {
       :
         data.map((item, index) => (
           <li key={index}>
-            <a href={item.url} target="_blank">
+            <a href={item.url} target="_blank" rel="noopener noreferrer">
               {item.text}
             </a>
           </li>
