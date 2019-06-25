@@ -12,11 +12,7 @@ class Wrapper extends Component {
   render() {
     return (
       <div className="Wrapper">
-        <Cheese position="top" />
-        <Header name="Wylie Fisher" />
-        <List type="email" email="wylie@dukeofcheese.com" />
-        <List type="links" data={data} />
-        <Cheese position="bottom" />
+        <Cheese />
       </div>
     );
   }
