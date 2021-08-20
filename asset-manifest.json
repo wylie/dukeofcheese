@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/dukeofcheese/static/js/main.1a256216.chunk.js",
+    "main.js.map": "/dukeofcheese/static/js/main.1a256216.chunk.js.map",
+    "runtime-main.js": "/dukeofcheese/static/js/runtime-main.88b3ebd9.js",
+    "runtime-main.js.map": "/dukeofcheese/static/js/runtime-main.88b3ebd9.js.map",
+    "static/js/2.a0cbdd9e.chunk.js": "/dukeofcheese/static/js/2.a0cbdd9e.chunk.js",
+    "static/js/2.a0cbdd9e.chunk.js.map": "/dukeofcheese/static/js/2.a0cbdd9e.chunk.js.map",
+    "static/js/3.51f73167.chunk.js": "/dukeofcheese/static/js/3.51f73167.chunk.js",
+    "static/js/3.51f73167.chunk.js.map": "/dukeofcheese/static/js/3.51f73167.chunk.js.map",
+    "index.html": "/dukeofcheese/index.html",
+    "static/js/2.a0cbdd9e.chunk.js.LICENSE.txt": "/dukeofcheese/static/js/2.a0cbdd9e.chunk.js.LICENSE.txt",
+    "static/media/bg-tile.e0e322cc.png": "/dukeofcheese/static/media/bg-tile.e0e322cc.png",
+    "static/media/new-cheese-gr.7e8400e7.png": "/dukeofcheese/static/media/new-cheese-gr.7e8400e7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88b3ebd9.js",
+    "static/js/2.a0cbdd9e.chunk.js",
+    "static/js/main.1a256216.chunk.js"
+  ]
+}
