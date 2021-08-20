@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { GlobalStyle } from "./styled.js";
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-import registerServiceWorker from './registerServiceWorker';
+ReactDOM.render(
+  <React.StrictMode>
+    <GlobalStyle />
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-import Wrapper from './components/wrapper';
-
-import './index.css';
-
-ReactDOM.render(<Wrapper />, document.getElementById('root'));
-registerServiceWorker();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
