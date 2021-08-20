@@ -1,45 +1,28 @@
 import React from 'react';
-import PropTypes from "prop-types";
-import cn from "classnames";
 
-import './_index.css';
+import { Anchor, Ul, Li } from "./styled.js";
 
 const List = ({ data, type, email }) => {
-  const outputClassName = cn('List', {
-    [`List_${type}`]: type
-  });
   return (
-    <ul className={outputClassName}>
+    <Ul type={type}>
       {!data
       ?
-        <li>
-          <a href={`mailto:${email}`}>
+        <Li>
+          <Anchor href={`mailto:${email}`}>
             {email}
-          </a>
-        </li>
+          </Anchor>
+        </Li>
       :
         data.map((item, index) => (
-          <li key={index}>
-            <a href={item.url} target="_blank" rel="noopener noreferrer">
+          <Li key={index}>
+            <Anchor href={item.url} rel="noopener noreferrer" target="_blank">
               {item.text}
-            </a>
-          </li>
+            </Anchor>
+          </Li>
         ))
       }
-    </ul>
+    </Ul>
   );
 }
-
-List.displayName = "List";
-
-List.propTypes = {
-  type: PropTypes.oneOf(["email", "links"]),
-  email: PropTypes.string
-};
-
-List.defaultProps = {
-  email: ""
-};
-
 
 export default List;

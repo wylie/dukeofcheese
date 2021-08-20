@@ -1,28 +1,13 @@
 import React from 'react';
-import cn from "classnames";
 
-import PropTypes from "prop-types";
+import { BigCheese } from "./styled.js";
 
-import './_index.css';
-
-import Img from './new-cheese-gr.png';
+import CheeseImage from '../../assets/new-cheese-gr.png';
 
 const Cheese = ({ position }) => {  
-  const outputClassName = cn('Cheese', `Cheese_${position}`);
-
   return (
-    <img className={outputClassName} src={Img} alt="" />
+    <BigCheese alt="" position={position} src={CheeseImage} />
   );
 }
-
-Cheese.displayName = "🧀";
-
-Cheese.propTypes = {
-  position: PropTypes.string
-};
-
-Cheese.defaultProps = {
-  position: ""
-};
 
 export default Cheese;
