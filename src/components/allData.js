@@ -20,10 +20,6 @@ const data = [
     url: "http://ifeelblank.com"
   },
   {
-    text: "teresafisherphd.com",
-    url: "http://teresafisherphd.com"
-  },
-  {
     text: "yrbrgr.com",
     url: "http://yrbrgr.com"
   },
